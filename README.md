@@ -1,0 +1,1 @@
+# poc-rails-export-image
