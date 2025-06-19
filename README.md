@@ -1,24 +1,18 @@
-# README
+# POC Export Image
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Require
+- ruby version 3.2.2
+- rails version 8.0.2
+- npm
+- node js
+- docker
 
-Things you may want to cover:
+### Run
+```
+bin/rails server
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Build docker compose
+```
+docker compose up
+```
