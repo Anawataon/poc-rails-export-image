@@ -1,0 +1,8 @@
+services:
+  rails:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - SECRET_KEY_BASE=225a5fb778042831344d90c6537a8831dce26c562190f035f57ce9a5cb8d4e9b8e18f3bf88683f1b643418bb7d415497f603eeb1910dc2f27e445dc80e01fc15
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
